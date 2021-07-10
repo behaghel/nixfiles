@@ -3,7 +3,7 @@
 
   inputs.nixpkgs.url = "nixpkgs/nixos-21.05-small";
 
-  inputs.home-manager.url = "github:nix-community/home-manager/master";
+  inputs.home-manager.url = "github:nix-community/home-manager/release-21.05";
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
   inputs.hub-home.url = "github:behaghel/dotfiles/stow-refactoring";
