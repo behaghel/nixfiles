@@ -37,8 +37,8 @@
     emacs = {
       enable = true;
       defaultEditor = true; # EDITOR env-var to emacsclient wrapper
-    }
-  }
+    };
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
