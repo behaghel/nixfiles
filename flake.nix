@@ -1,12 +1,13 @@
 {
   description = "Hubert's ultimate flake";
 
+  # TODO: capture version in its own constant
   inputs.nixpkgs.url = "nixpkgs/nixos-21.05-small";
 
   inputs.home-manager.url = "github:nix-community/home-manager/release-21.05";
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-  inputs.hub-home.url = "github:behaghel/dotfiles/stow-refactoring";
+  inputs.hub-home.url = "github:behaghel/dotfiles";
   inputs.hub-home.inputs.nixpkgs.follows = "nixpkgs";
 
   outputs = { self, nixpkgs, home-manager, hub-home }:
