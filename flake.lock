@@ -1,5 +1,43 @@
 {
   "nodes": {
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1625909913,
+        "narHash": "sha256-ZP3RCGYwPDu4I5rwLYER2/d4aHFxiMTQ5Ioc89WRTow=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "9ed7a73ae23f0d905bd098c6ce71c50289d37928",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "master",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "hub-home": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "nur": "nur"
+      },
+      "locked": {
+        "narHash": "sha256-A9CBmBPqjX6MSEcm/Xafycvetef0kn87VwsPcenGC1I=",
+        "path": "./users/hub",
+        "type": "path"
+      },
+      "original": {
+        "path": "./users/hub",
+        "type": "path"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1625905697,
@@ -15,8 +53,25 @@
         "type": "indirect"
       }
     },
+    "nur": {
+      "locked": {
+        "lastModified": 1625928937,
+        "narHash": "sha256-kE194R7WYz8H4fVMggpAMUo1QrZ6jjJDp8dUKkZ8UqQ=",
+        "owner": "nix-community",
+        "repo": "NUR",
+        "rev": "18fd2d1f326476773a3d60980f4b47fc58f23f31",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "NUR",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
+        "home-manager": "home-manager",
+        "hub-home": "hub-home",
         "nixpkgs": "nixpkgs"
       }
     }
