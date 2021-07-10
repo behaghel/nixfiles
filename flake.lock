@@ -29,13 +29,18 @@
         "nur": "nur"
       },
       "locked": {
-        "narHash": "sha256-A9CBmBPqjX6MSEcm/Xafycvetef0kn87VwsPcenGC1I=",
-        "path": "./users/hub",
-        "type": "path"
+        "lastModified": 1625935900,
+        "narHash": "sha256-PdjTeRLv3AKmdmKoCyEXzPswOzGR74WMuuR5IPUAnXQ=",
+        "owner": "behaghel",
+        "repo": "dotfiles",
+        "rev": "91d1daa99d7783012367ef0345ebeb1e2b0729bb",
+        "type": "github"
       },
       "original": {
-        "path": "./users/hub",
-        "type": "path"
+        "owner": "behaghel",
+        "ref": "stow-refactoring",
+        "repo": "dotfiles",
+        "type": "github"
       }
     },
     "nixpkgs": {
