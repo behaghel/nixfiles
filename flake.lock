@@ -29,16 +29,15 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1625935900,
-        "narHash": "sha256-PdjTeRLv3AKmdmKoCyEXzPswOzGR74WMuuR5IPUAnXQ=",
+        "lastModified": 1625940177,
+        "narHash": "sha256-CCU1VKAc1XfCcCrKjSifi/MayuKsQlM62IUTOeUK2tY=",
         "owner": "behaghel",
         "repo": "dotfiles",
-        "rev": "91d1daa99d7783012367ef0345ebeb1e2b0729bb",
+        "rev": "d849a36e025264d7cdaee4c714bd346c4a99c832",
         "type": "github"
       },
       "original": {
         "owner": "behaghel",
-        "ref": "stow-refactoring",
         "repo": "dotfiles",
         "type": "github"
       }
