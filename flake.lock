@@ -21,7 +21,7 @@
         "type": "github"
       }
     },
-    "hub-home": {
+    "hub-dotfiles": {
       "inputs": {
         "nixpkgs": [
           "nixpkgs"
@@ -29,11 +29,11 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1635086236,
-        "narHash": "sha256-uBsj+6jPIcUY4L9eIeDOCFiP107EyrwgsQjw3d+KP2E=",
+        "lastModified": 1635087800,
+        "narHash": "sha256-KMYnYXa4jvYQ11MTMN+7fX/4GmViJx0q6izlsPvQhK4=",
         "owner": "behaghel",
         "repo": "dotfiles",
-        "rev": "37cc20c0b9391281ab1c92d71dd18376094bcf32",
+        "rev": "5797252b8aad001f55cf3e97e676a09b7b40f94e",
         "type": "github"
       },
       "original": {
@@ -75,7 +75,7 @@
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "hub-home": "hub-home",
+        "hub-dotfiles": "hub-dotfiles",
         "nixpkgs": "nixpkgs"
       }
     }

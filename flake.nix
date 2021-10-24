@@ -7,10 +7,10 @@
   inputs.home-manager.url = "github:nix-community/home-manager/release-21.05";
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-  inputs.hub-home.url = "github:behaghel/dotfiles";
-  inputs.hub-home.inputs.nixpkgs.follows = "nixpkgs";
+  inputs.hub-dotfiles.url = "github:behaghel/dotfiles";
+  inputs.hub-dotfiles.inputs.nixpkgs.follows = "nixpkgs";
 
-  outputs = { self, nixpkgs, home-manager, hub-home }:
+  outputs = { self, nixpkgs, home-manager, hub-dotfiles }:
     let
       # Function to create default (common) system config options
       defFlakeSystem = baseCfg:
@@ -52,7 +52,7 @@
           imports = [
             (./hosts/dell-laptop/default.nix)
             # Add home-manager config
-            { home-manager.users.hub = hub-home.nixosModules.home; }
+            { home-manager.users.hub = hub-dotfiles.nixosModules.dotfiles; }
           ];
         };
       };
