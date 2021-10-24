@@ -29,11 +29,11 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1625940177,
-        "narHash": "sha256-CCU1VKAc1XfCcCrKjSifi/MayuKsQlM62IUTOeUK2tY=",
+        "lastModified": 1635074997,
+        "narHash": "sha256-zaOxHTG5x7InvXiHbo6HMoiK5bL0Xm7PhG3gjl4rNTo=",
         "owner": "behaghel",
         "repo": "dotfiles",
-        "rev": "d849a36e025264d7cdaee4c714bd346c4a99c832",
+        "rev": "15771bde0995a253af5f4fa8e644c237ea59c803",
         "type": "github"
       },
       "original": {
@@ -59,11 +59,11 @@
     },
     "nur": {
       "locked": {
-        "lastModified": 1625938733,
-        "narHash": "sha256-G2v16QSjRX6w5ubMqOMUf2+D0InVa/CSDVi22bI48wQ=",
+        "lastModified": 1635061961,
+        "narHash": "sha256-5NqbwkGi4EGobrYZYqsWKjpfqCJn0dIn0NWj625RSKc=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "e5462f7579d0d29996a5cb75ef607599095d7ab7",
+        "rev": "f50850b1e860a87ae725bf9209fbdc6fb0a9657c",
         "type": "github"
       },
       "original": {
