@@ -52,7 +52,7 @@
           imports = [
             (./hosts/dell-laptop/default.nix)
             # Add home-manager config
-            { home-manager.users.hub = hub-home.nixosModules.desktop; }
+            { home-manager.users.hub = hub-home.nixosModules.home; }
           ];
         };
       };
