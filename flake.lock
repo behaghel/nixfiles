@@ -29,11 +29,11 @@
         "nur": "nur"
       },
       "locked": {
-        "lastModified": 1635074997,
-        "narHash": "sha256-zaOxHTG5x7InvXiHbo6HMoiK5bL0Xm7PhG3gjl4rNTo=",
+        "lastModified": 1635086236,
+        "narHash": "sha256-uBsj+6jPIcUY4L9eIeDOCFiP107EyrwgsQjw3d+KP2E=",
         "owner": "behaghel",
         "repo": "dotfiles",
-        "rev": "15771bde0995a253af5f4fa8e644c237ea59c803",
+        "rev": "37cc20c0b9391281ab1c92d71dd18376094bcf32",
         "type": "github"
       },
       "original": {
